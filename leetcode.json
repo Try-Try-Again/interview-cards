@@ -1,0 +1,34 @@
+[
+  {
+    "question": "'Contains Duplicate' category",
+    "answer": "arrays"
+  },
+  {
+    "question": "'Contains Duplicate' notes",
+    "answer": "hashset to get unique values in array to check for duplicates easily"
+  },
+  {
+    "question": "'Coin Change' category",
+    "answer": "dynamic programming"
+  },
+  {
+    "question": "'Coin Change' notes",
+    "answer": "top-down: recursive dfs, for amount, branch for each coin, cache to store prev coin_count for each amount; bottom-up: compute coins for amount = 1, up until n, using for each coin (amount - coin), cache prev values"
+  },
+  {
+    "question": "'Unique Paths' category",
+    "answer": "dynamic programming"
+  },
+  {
+    "question": "'Unique Paths' notes",
+    "answer": "work backwards from solution, store paths for each position in grid, to further optimize, we don’t store whole grid, only need to store prev row;"
+  },
+  {
+    "question": "'Climbing Stairs' category",
+    "answer": "dynamic programming"
+  },
+  {
+    "question": "'Climbing Stairs' notes",
+    "answer": "subproblem find (n-1) and (n-2), sum = n;"
+  }
+]
